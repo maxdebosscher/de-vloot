@@ -1,0 +1,123 @@
+ html, body, header, div, ul, li, img, p, h1, h2, a{
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+ body{
+ 	font-family: sans-serif;
+ }
+ 
+ li{
+ 	display: inline;
+ 	padding-top: 100px;
+ 	padding-left: 10px;
+ }
+ 
+ ul{
+ 	padding-top: 150px;
+ 	padding-left: 15px;
+ }
+ 
+ img{
+ 	float: left;
+ 	padding-left: 5px;
+ 	padding-right: 20px;
+ 	padding-top: 5px;
+ 	padding-bottom: 40px;
+ }
+ 
+ img.vloot2{
+ 	float: right;
+ 	padding-top: 20px;
+ }
+ 
+ img.vloot3{
+ 	float: left;
+ 	padding-left: 5px;
+ 	padding-right: 20px;
+ 	padding-top: 10px;
+ }
+ 
+ img.vloot12{
+ 	float: right;
+ }
+ 
+ img.vloot10{
+ 	float: right;
+ }
+ 
+ p.text{
+ 	width: 700px;
+ 	padding-left: 20px;
+ 	padding-top: 20px;
+ 	line-height: 20px;
+ }
+ 
+ p{
+ 	padding-left: 20px;
+ 	letter-spacing: 0.5px;
+ }
+ 
+ body {
+     background-image: url("css/grfx/bg.png");
+     background-repeat: repeat-x;
+     font-family: sans-serif;
+ }
+ 
+ h1{
+ 	padding-left: 20px;
+ 	padding-top: 10px;
+ }
+ 
+ h2{
+ 	padding-left: 20px;
+ 	padding-top: 15px;
+ }
+  
+ div.container {
+     margin: 0px auto;
+     width: 800px;
+     border-radius: 0px;
+     background: white;
+     height: auto;
+ }
+  
+ header{
+     background-image: url("css/grfx/header.jpg");
+     background-repeat: no-repeat;
+     z-index: -1;
+     width: 800px;
+     height: 268px;
+ }
+ 
+ div.background{
+ 	background-color: white;
+ }
+ 
+ li{
+ 	color: white;
+ }
+ 
+ /* unvisited link */
+ a:link {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ /* visited link */
+ a:visited {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ /* mouse over link */
+ a:hover {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ /* selected link */
+ a:active {
+     color: white;
+     text-decoration: none;
+ }
